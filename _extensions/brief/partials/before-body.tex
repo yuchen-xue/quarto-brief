@@ -6,21 +6,21 @@
 
 $for(authors/first)$
 $if(it.phone)$
-\setkomavar{fromphone}[]{$it.phone$}
+\setkomavar{fromphone}{$it.phone$}
 \KOMAoptions{fromphone=true}
 $endif$
 $endfor$
 
 $for(authors/first)$
 $if(it.email)$
-\setkomavar{fromemail}[]{$it.email$}
+\setkomavar{fromemail}{$it.email$}
 \KOMAoptions{fromemail=true}
 $endif$
 $endfor$
 
 $for(authors/first)$
 $if(it.url)$
-\setkomavar{fromurl}[]{$it.url$}
+\setkomavar{fromurl}{$it.url$}
 \KOMAoptions{fromurl=true}
 $endif$
 $endfor$
